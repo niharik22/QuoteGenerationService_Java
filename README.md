@@ -1,7 +1,4 @@
-# QuoteGenerationService
-Java Project for Quote Generation Service 
-
-## Project: QGS (Quote Generation System)
+# Project: QGS (Quote Generation System)
 
 ### Overview
 
