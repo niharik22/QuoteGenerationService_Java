@@ -13,14 +13,14 @@ The project utilizes the following technologies and tools:
 - **JDBC (Java Database Connectivity)**: A Java-based API for connecting and interacting with the relational database.
 - **Custom Exceptions**: Custom exception classes for handling specific error scenarios.
 - **Properties File**: Usage of properties files for database configuration (jdbc.properties).
-- **Database Management System**: A relational database system (e.g., MySQL, PostgreSQL) to store user and policy data.
-- **User Interface**: Though not explicitly mentioned, a user interface technology or framework may be used for user interaction if applicable.
+- **Database Management System**: A relational database system (MySQL) to store user and policy data.
+<!--- **User Interface**: Though not explicitly mentioned, a user interface technology or framework may be used for user interaction if applicable.-->
 
 ### Custom Exceptions (QGSException)
 
 - **Custom Exception Class**: QGSException is a custom exception class that extends the standard Exception class. It's designed to handle project-specific exceptions and provide meaningful error messages to developers or users when exceptional situations occur.
 - **Error Handling**: Custom exceptions are thrown in various parts of the project when specific error conditions are encountered. These exceptions encapsulate details about the error, making it easier to diagnose and fix issues during development or operation.
-- **Exception Handling**: The project includes exception handling mechanisms, likely in the service and utility layers, to catch and manage these custom exceptions. When an exception is caught, it may log the error, provide user-friendly error messages, and take appropriate actions to handle or report the error.
+- **Exception Handling**: The project includes exception handling mechanisms, likely in the service and utility layers, to catch and manage these custom exceptions. When an exception is caught, it logs the error, provide user-friendly error messages, and take appropriate actions to handle or report the error.
 - **Enhanced Debugging**: Custom exceptions contribute to enhanced debugging and error tracing. Developers can identify the nature of the exception quickly and pinpoint the code where the error occurred. This aids in maintaining the reliability and stability of the application.
 - **User-Friendly Messages**: Custom exceptions help in presenting user-friendly error messages to end-users in scenarios where something goes wrong. These messages guide users on how to proceed or report issues effectively.
 - **Separation of Concerns**: By using custom exceptions, the project maintains a clear separation of concerns, separating error handling and reporting from the main application logic. This improves code readability and maintainability.
