@@ -1,4 +1,4 @@
-# Project: QGS (Quote Generation System) - Console Application
+# QGS (Quote Generation System) - Console Application
 
 ### Overview
 
