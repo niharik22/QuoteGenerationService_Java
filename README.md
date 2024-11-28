@@ -1,4 +1,4 @@
-# QGS (Quote Generation System) - Console Application
+# Quote Generation System - Console Application
 
 ### Overview
 
